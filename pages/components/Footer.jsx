@@ -4,79 +4,87 @@ const Footer = () => {
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap md:text-left text-center order-first">
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">
+            <h2 className="title-font font-bold text-base lg:text-xl text-white tracking-widest text-sm mb-5">
               Contact us
             </h2>
-            <div>Nerd Brainz Coffee</div>
-            <div>1337 Leet Ave</div>
-            <div>Spokane, WA, 94301 USA</div>
-            <div>{`(555)867-5309`}</div>
+            <nav className="list-none mb-10">
+              <div>Nerd Brainz Coffee</div>
+              <div>1337 Leet Ave</div>
+              <div>Spokane, WA, 94301 USA</div>
+              <div>{`(555)867-5309`}</div>
+            </nav>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">
-              CATEGORIES
+            <h2 className="title-font font-bold text-base lg:text-xl text-white tracking-widest text-sm mb-5">
+              OPENING HOURS
             </h2>
             <nav className="list-none mb-10">
-              <li>
+              <table className="mx-auto md:mx-0">
+                <tbody>
+                  <tr>
+                    <th>Monday</th>
+                    <td>9am - 5pm</td>
+                  </tr>
+                  <tr>
+                    <th>Tuesday</th>
+                    <td>9am - 5pm</td>
+                  </tr>
+                  <tr>
+                    <th>Wednesday</th>
+                    <td>9am - 5pm</td>
+                  </tr>
+                  <tr>
+                    <th>Thursday</th>
+                    <td>9am - 5pm</td>
+                  </tr>
+                  <tr>
+                    <th>Friday</th>
+                    <td>9am - 5pm</td>
+                  </tr>
+                  <tr>
+                    <th>Sunday</th>
+                    <td>Closed</td>
+                  </tr>
+                </tbody>
+              </table>
+            </nav>
+          </div>
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 className="title-font font-bold text-base lg:text-xl text-white tracking-widest text-sm mb-5">
+              NERD BRAINZ NEWS
+            </h2>
+            <nav className="list-none mb-10">
+              <li className="mb-5">
                 <a href="/" className="text-gray-300 hover:text-white">
-                  First Link
+                  <p>Why Coffee is So Good!</p>
+                  <span className="text-pink-500 italic">July 1, 2020</span>
                 </a>
               </li>
-              <li>
+              <li className="mb-5">
                 <a href="/" className="text-gray-300 hover:text-white">
-                  Second Link
+                  <p>The Proper Way To Grind and Store Coffee</p>
+                  <span className="text-pink-500 italic">December 1, 2020</span>
                 </a>
               </li>
-              <li>
+              <li className="mb-5">
                 <a href="/" className="text-gray-300 hover:text-white">
-                  Third Link
-                </a>
-              </li>
-              <li>
-                <a href="/" className="text-gray-300 hover:text-white">
-                  Fourth Link
+                  <p>Halloween Coffee Treats</p>
+                  <span className="text-pink-500 italic">October 30, 2020</span>
                 </a>
               </li>
             </nav>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">
-              CATEGORIES
-            </h2>
-            <nav className="list-none mb-10">
-              <li>
-                <a href="/" className="text-gray-300 hover:text-white">
-                  First Link
-                </a>
-              </li>
-              <li>
-                <a href="/" className="text-gray-300 hover:text-white">
-                  Second Link
-                </a>
-              </li>
-              <li>
-                <a href="/" className="text-gray-300 hover:text-white">
-                  Third Link
-                </a>
-              </li>
-              <li>
-                <a href="/" className="text-gray-300 hover:text-white">
-                  Fourth Link
-                </a>
-              </li>
-            </nav>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">
+            <h2 className="title-font font-bold text-base lg:text-xl text-white tracking-widest text-sm mb-5">
               SUBSCRIBE
             </h2>
             <div className="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
               <div className="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
                 <label
-                  for="footer-field"
+                  htmlFor="footer-field"
                   className="leading-7 text-sm text-gray-300"
                 >
-                  Placeholder
+                  For Special Deals
                 </label>
                 <input
                   type="text"
@@ -89,9 +97,6 @@ const Footer = () => {
                 Button
               </button>
             </div>
-            <p className="text-gray-500 text-sm mt-2 md:text-left text-center">
-              Bitters chicharrones fanny pack
-            </p>
           </div>
         </div>
       </div>
@@ -99,9 +104,9 @@ const Footer = () => {
         <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
           <a
             href="/"
-            className="flex title-font font-medium items-center md:justify-start justify-center text-white"
+            className="flex title-font font-bold text-base lg:text-xl items-center md:justify-start justify-center text-white"
           >
-            <i class="fas fa-mug-hot fa-lg mb-2 text-pink-500"></i>
+            <i className="fas fa-mug-hot fa-lg mb-2 text-pink-500"></i>
             <span className="ml-3 text-xl text-pink-500">
               NerdBrainz Coffee
             </span>
@@ -113,9 +118,9 @@ const Footer = () => {
             <a href="/" className="text-white">
               <svg
                 fill="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 className="w-5 h-5"
                 viewBox="0 0 24 24"
               >
@@ -125,9 +130,9 @@ const Footer = () => {
             <a href="/" className="ml-3 text-white">
               <svg
                 fill="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 className="w-5 h-5"
                 viewBox="0 0 24 24"
               >
@@ -138,9 +143,9 @@ const Footer = () => {
               <svg
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 className="w-5 h-5"
                 viewBox="0 0 24 24"
               >
@@ -152,9 +157,9 @@ const Footer = () => {
               <svg
                 fill="currentColor"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="0"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="0"
                 className="w-5 h-5"
                 viewBox="0 0 24 24"
               >
