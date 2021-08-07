@@ -13,7 +13,11 @@ const Navbar = () => {
       <nav className="flex items-center flex-wrap bg-pink-500 p-3">
         <Link href="/">
           <a className="inline-flex items-center p-2 mr-4">
-            <i className="fas fa-mug-hot text-white text-3xl mr-3 hidden md:block mb-3"></i>
+            <img
+              className="h-14 w-14 mr-6 filter invert "
+              src="/static/images/nb_logo.png"
+              alt=""
+            />{" "}
             <span className="text-xl text-white font-bold uppercase tracking-wide">
               NerdBrainz Coffee{" "}
             </span>
@@ -60,13 +64,13 @@ const Navbar = () => {
             <Link href="/">
               <a className="uppercase lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-pink-500 hover:text-black">
                 <i className="fas fa-mug-hot text-white text-lg mr-3 hidden md:block mb-3"></i>
-                NerdBrainz News
+                News & Events
               </a>
             </Link>
             <Link href="/">
               <a className="uppercase lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-pink-500 hover:text-black">
                 <i className="fas fa-mug-hot text-white text-lg mr-3 hidden md:block mb-3"></i>
-                NerdBrainz Coffee
+                ABOUT
               </a>
             </Link>
             <Link href="/">
