@@ -4,13 +4,13 @@ import "react-multi-carousel/lib/styles.css";
 
 const Home = () => {
   return (
-    <div className="min-h-screen text-white">
+    <div className="min-h-screen text-white bg-custom-black-light">
       <Meta
         title="The Title"
         description="Nerd Brainz coffee goes straight to the brain to create an effect that is long lasting and can motivate you to get out of bed in the morning"
       />
       {/* Start Hero Section */}
-      <section id="testimonials">
+      <section id="testimonials bg-custom-black-light">
         <header className="relative flex items-center justify-center h-screen mb-12 overflow-hidden">
           <div className="relative z-30 p-5 text-2xl text-white  bg-opacity-50 rounded-xl">
             <div className="container mx-auto flex flex-col px-5 py-24 justify-center items-center">
@@ -20,13 +20,15 @@ const Home = () => {
                 alt=""
               />
               <div className="w-full md:w-2/3 flex flex-col mb-16 items-center text-center my-12">
-                <h1 className="title-font text-4xl lg:text-6xl mb-4 font-medium text-white">
-                  Nerd Brainz Coffee Company
+                <h1 className="title-font text-3xl lg:text-7xl mb-4 font-medium text-white whitespace-nowrap">
+                  Nerd <i className="fas fa-mug-hot text-black"></i>
+                  Brainz <i className="fas fa-mug-hot text-black"></i>
+                  Coffee
                 </h1>
-                <p className="mb-8 text-2xl leading-relaxed font-bold">
+                <p className="mb-8 text-3xl mt-24 leading-relaxed font-bold">
                   We are small town coffee brewers thriving in the Lilac city
                 </p>
-                <button className="inline-flex text-white bg-pink-500 border-0 py-2 px-6 focus:outline-none hover:bg-pink-500 rounded text-lg">
+                <button className="inline-flex text-white bg-custom-tan border-0 py-2 px-6 focus:outline-none hover:bg-custom-tan rounded text-lg">
                   SEE OUR MENU
                 </button>
               </div>
@@ -45,7 +47,7 @@ const Home = () => {
       </section>
       {/* End Hero Section */}
       {/* Start Three Cards Wide Marketing Section */}
-      <section className="text-gray-400 bg-gray-900 body-font">
+      <section className="text-gray-400 bg-custom-black-light body-font">
         <div className="container px-5 py-24 mx-auto">
           <h1 className="sm:text-3xl text-2xl font-medium title-font text-center text-white mb-20">
             Nerd Brainz Cafe
@@ -65,9 +67,9 @@ const Home = () => {
                   At Nerd Brainz people come from all around to rest, relax and
                   revive with good company, and great food!
                 </p>
-                <a className="mt-3 text-pink-400 inline-flex items-center ml-auto flex flex-col  ">
-                  <h2 className="">FREE</h2>
-                  <i className="fas fa-wifi fa-7x"></i>
+                <a className="mt-3 text-custom-tan inline-flex items-center ml-auto flex flex-col  ">
+                  <h2 className="text-white">FREE</h2>
+                  <i className="fas fa-wifi fa-7x text-white"></i>
                 </a>
               </div>
             </div>
@@ -85,7 +87,7 @@ const Home = () => {
                   At Nerd Brainz people come from all around to rest, relax and
                   revive with good company, and great food!
                 </p>
-                <a className="mt-3 text-pink-400 inline-flex items-center">
+                <a className="mt-3 text-custom-tan inline-flex items-center">
                   Learn More
                   <svg
                     fill="none"
@@ -113,7 +115,7 @@ const Home = () => {
       </section>
       {/* End Three Cards Wide Marketing Section */}
       {/* Start Image Carousel Section */}
-      <section className="hidden md:block">
+      <section className="hidden md:block bg-custom-black-dark">
         <Carousel
           swipeable={false}
           draggable={false}
@@ -180,12 +182,12 @@ const Home = () => {
       </section>
       {/* End Image Carousel Section */}
       {/* Start Animated Coffees Style Section */}
-      <section className="text-gray-400 bg-gray-900 body-font pt-24">
+      <section className="text-gray-400 bg-custom-black-dark body-font pt-24">
         <div className="text-center">
           <p className="text-white text-xl">
             We have over 30 different flavors to choose from
           </p>
-          <h2 className="text-pink-500">
+          <h2 className="text-custom-tan">
             CHOOSE YOUR STYLE / CHOOSE YOUR FLAVOR
           </h2>
         </div>
@@ -330,7 +332,7 @@ const Home = () => {
               enjoying the ambience. Nerd Brainz coffee is my favorite spot in
               town.
             </p>
-            <span className="inline-block h-1 w-10 rounded bg-pink-500 mt-8 mb-6"></span>
+            <span className="inline-block h-1 w-10 rounded bg-custom-tan mt-8 mb-6"></span>
             <h2 className="text-white font-medium title-font tracking-wider text-sm">
               Talee Johnson
             </h2>
@@ -340,7 +342,7 @@ const Home = () => {
       </section>
       {/* End Testimonials carousel */}
       {/* Start three wide cards events, amenities and gift shop */}
-      <section className="text-gray-400 bg-gray-900 body-font">
+      <section className="text-gray-400 bg-custom-black-dark body-font">
         <div className="container px-5 py-24 mx-auto">
           <h1 className="sm:text-3xl text-2xl font-medium title-font text-center text-white mb-20">
             Nerd Brainz Cafe
@@ -360,7 +362,7 @@ const Home = () => {
                   At Nerd Brainz people come from all around to rest, relax and
                   revive with good company, and great food!
                 </p>
-                <a className="mt-3 text-pink-400 inline-flex items-center border-2 border-pink-500 p-5 rounded-lg">
+                <a className="mt-3 text-custom-tan inline-flex items-center border-2 border-custom-tan p-5 rounded-lg">
                   Learn More
                   <svg
                     fill="none"
@@ -390,7 +392,7 @@ const Home = () => {
                   At Nerd Brainz people come from all around to rest, relax and
                   revive with good company, and great food!
                 </p>
-                <a className="mt-3 text-pink-400 inline-flex items-center border-2 border-pink-500 p-5 rounded-lg">
+                <a className="mt-3 text-custom-tan inline-flex items-center border-2 border-custom-tan p-5 rounded-lg">
                   Learn More
                   <svg
                     fill="none"
@@ -420,7 +422,7 @@ const Home = () => {
                   At Nerd Brainz people come from all around to rest, relax and
                   revive with good company, and great food!
                 </p>
-                <a className="mt-3 text-pink-400 inline-flex items-center border-2 border-pink-500 p-5 rounded-lg">
+                <a className="mt-3 text-custom-tan inline-flex items-center border-2 border-custom-tan p-5 rounded-lg">
                   Learn More
                   <svg
                     fill="none"

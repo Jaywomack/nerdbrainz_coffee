@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <footer className="text-gray-300 bg-gray-900 body-font">
-      <div className="container px-5 py-24 mx-auto">
+    <footer className="text-gray-300 bg-custom-black-mid body-font">
+      <div className="container px-5 py-12 mx-auto">
         <div className="flex flex-wrap md:text-left text-center order-first">
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2 className="title-font font-bold text-base lg:text-xl text-white tracking-widest text-sm mb-5">
@@ -12,6 +12,15 @@ const Footer = () => {
               <div>1337 Leet Ave</div>
               <div>Spokane, WA, 94301 USA</div>
               <div>{`(555)867-5309`}</div>
+              <div>
+                Email:{" "}
+                <span className="text-custom-tan"> Jay@nerdbrainz.com</span>
+              </div>
+              <img
+                className="h-48 w-48 filter invert hidden md:block"
+                src="/static/images/nb_logo.png"
+                alt=""
+              />
             </nav>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
@@ -43,7 +52,7 @@ const Footer = () => {
                   </tr>
                   <tr>
                     <th>Sunday</th>
-                    <td>Closed</td>
+                    <td className="text-custom-tan">Closed</td>
                   </tr>
                 </tbody>
               </table>
@@ -57,19 +66,23 @@ const Footer = () => {
               <li className="mb-5">
                 <a href="/" className="text-gray-300 hover:text-white">
                   <p>Why Coffee is So Good!</p>
-                  <span className="text-pink-500 italic">July 1, 2020</span>
+                  <span className="text-custom-tan italic">July 1, 2020</span>
                 </a>
               </li>
               <li className="mb-5">
                 <a href="/" className="text-gray-300 hover:text-white">
                   <p>The Proper Way To Grind and Store Coffee</p>
-                  <span className="text-pink-500 italic">December 1, 2020</span>
+                  <span className="text-custom-tan italic">
+                    December 1, 2020
+                  </span>
                 </a>
               </li>
               <li className="mb-5">
                 <a href="/" className="text-gray-300 hover:text-white">
                   <p>Halloween Coffee Treats</p>
-                  <span className="text-pink-500 italic">October 30, 2020</span>
+                  <span className="text-custom-tan italic">
+                    October 30, 2020
+                  </span>
                 </a>
               </li>
             </nav>
@@ -90,29 +103,29 @@ const Footer = () => {
                   type="text"
                   id="footer-field"
                   name="footer-field"
-                  className="w-full bg-gray-800 rounded border bg-opacity-40 border-gray-700 focus:bg-transparent focus:ring-2 focus:ring-pink-900 focus:border-pink-500 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  className="w-full bg-gray-800 rounded border bg-opacity-40 border-gray-700 focus:bg-transparent focus:ring-2 focus:ring-custom-tan focus:border-custom-tan text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
               </div>
-              <button className="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-pink-500 border-0 py-2 px-6 focus:outline-none hover:bg-pink-600 rounded">
-                Button
+              <button className="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-custom-tan border-0 py-2 px-6 focus:outline-none hover:bg-custom-tan rounded">
+                Sign up
               </button>
             </div>
           </div>
         </div>
       </div>
-      <div className="bg-gray-800 bg-opacity-75">
+      <div className="bg-black bg-opacity-75">
         <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
           <a
             href="/"
             className="flex title-font font-bold text-base lg:text-xl items-center md:justify-start justify-center text-white"
           >
-            <i className="fas fa-mug-hot fa-lg mb-2 text-pink-500"></i>
-            <span className="ml-3 text-xl text-pink-500">
-              NerdBrainz Coffee
+            <i className="fas fa-mug-hot fa-lg mb-2 text-custom-tan"></i>
+            <span className="ml-3 text-xl text-custom-tan">
+              &copy; NerdBrainz Coffee
             </span>
           </a>
           <p className="text-sm text-white sm:ml-6 sm:mt-0 mt-4">
-            © 2020 NerdBrainz Coffee
+            © 2020 NerdBrainz
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
             <a href="/" className="text-white">
