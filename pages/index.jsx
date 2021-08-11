@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="min-h-screen text-white bg-custom-black-light">
       <Meta
-        title="The Title"
+        title="Home"
         description="Nerd Brainz coffee goes straight to the brain to create an effect that is long lasting and can motivate you to get out of bed in the morning"
       />
       {/* Start Hero Section */}
@@ -21,9 +21,7 @@ const Home = () => {
               />
               <div className="w-full md:w-2/3 flex flex-col mb-16 items-center text-center my-12">
                 <h1 className="title-font text-3xl lg:text-7xl mb-4 font-medium text-white whitespace-nowrap">
-                  Nerd <i className="fas fa-mug-hot text-black"></i>
-                  Brainz <i className="fas fa-mug-hot text-black"></i>
-                  Coffee
+                  Nerd Brainz Coffee
                 </h1>
                 <p className="mb-8 text-3xl mt-24 leading-relaxed font-bold">
                   We are small town coffee brewers thriving in the Lilac city
@@ -56,20 +54,20 @@ const Home = () => {
             <div className="p-4 md:w-1/3 flex">
               <div className="flex-grow pl-6  text-center">
                 <img
-                  className="rounded border-4 border-white mb-5"
+                  className="rounded border-4 border-white mb-5 clip-image-bottom"
                   src="/static/images/aerial_coffee_shop.jpeg"
                   alt=""
                 />
-                <h2 className="text-white text-lg title-font font-medium mb-5">
-                  Left Side Marketing
+                <h2 className="text-white text-2xl uppercase title-font font-medium mb-5">
+                  Rest, Enjoy & Socialize
                 </h2>
                 <p className="leading-relaxed text-base mb-5">
                   At Nerd Brainz people come from all around to rest, relax and
                   revive with good company, and great food!
                 </p>
                 <a className="mt-3 text-custom-tan inline-flex items-center ml-auto flex flex-col  ">
-                  <h2 className="text-white">FREE</h2>
-                  <i className="fas fa-wifi fa-7x text-white"></i>
+                  <i className="fas fa-wifi fa-7x text-custom-tan mb-2"></i>
+                  <h2 className="text-custom-tan text-3xl">FREE WIFI</h2>
                 </a>
               </div>
             </div>
@@ -80,8 +78,8 @@ const Home = () => {
                   src="/static/images/coffee_sign.jpeg"
                   alt=""
                 />
-                <h2 className="text-white text-lg title-font font-medium mb-5">
-                  Did Someone Say "NerdBrainz Coffee"!
+                <h2 className="text-white text-2xl uppercase title-font font-medium mb-5">
+                  Did Someone Say "Coffee"!
                 </h2>
                 <p className="leading-relaxed text-base mb-5">
                   At Nerd Brainz people come from all around to rest, relax and
@@ -184,10 +182,10 @@ const Home = () => {
       {/* Start Animated Coffees Style Section */}
       <section className="text-gray-400 bg-custom-black-dark body-font pt-24">
         <div className="text-center">
-          <p className="text-white text-xl">
+          <p className="text-custom-tan mb-5 text-xl">
             We have over 30 different flavors to choose from
           </p>
-          <h2 className="text-custom-tan">
+          <h2 className="text-white text-3xl uppercase border-b-2 border-custom-tan pb-5 w-1/2 mx-auto">
             CHOOSE YOUR STYLE / CHOOSE YOUR FLAVOR
           </h2>
         </div>
@@ -314,6 +312,9 @@ const Home = () => {
       <section className="text-gray-400 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+            <h2 className="text-3xl text-custom-tan mb-2 font-bold">
+              Our Customers Love It Here{" "}
+            </h2>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
@@ -336,7 +337,7 @@ const Home = () => {
             <h2 className="text-white font-medium title-font tracking-wider text-sm">
               Talee Johnson
             </h2>
-            <p className="text-gray-500">Another Happy Customer</p>
+            <p className="text-custom-tan">Another Happy Customer</p>
           </div>
         </div>
       </section>
@@ -344,9 +345,6 @@ const Home = () => {
       {/* Start three wide cards events, amenities and gift shop */}
       <section className="text-gray-400 bg-custom-black-dark body-font">
         <div className="container px-5 py-24 mx-auto">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font text-center text-white mb-20">
-            Nerd Brainz Cafe
-          </h1>
           <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
             <div className="p-4 md:w-1/3 flex">
               <div className="flex-grow pl-6  text-center">
@@ -356,14 +354,15 @@ const Home = () => {
                   alt=""
                 />
                 <h2 className="text-white text-lg title-font font-medium mb-5">
-                  Left Side Marketing
+                  Open Mic Night
                 </h2>
                 <p className="leading-relaxed text-base mb-5">
-                  At Nerd Brainz people come from all around to rest, relax and
-                  revive with good company, and great food!
+                  Tune in on Open Mic Night! Come see our family friendly open
+                  mic night at Nerd Brainz coffee and eatery! Grab your guitar
+                  and come on down!
                 </p>
                 <a className="mt-3 text-custom-tan inline-flex items-center border-2 border-custom-tan p-5 rounded-lg">
-                  Learn More
+                  Check Our Events
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -386,14 +385,15 @@ const Home = () => {
                   alt=""
                 />
                 <h2 className="text-white text-lg title-font font-medium mb-5">
-                  Left Side Marketing
+                  The Perfect Place To Meet Friends
                 </h2>
                 <p className="leading-relaxed text-base mb-5">
-                  At Nerd Brainz people come from all around to rest, relax and
-                  revive with good company, and great food!
+                  We have spaces large enough for large gatherings as well as
+                  for lunch and Nerd Brainz Coffee and Eatery is the perfect
+                  place to work remote with our high speed wifi.
                 </p>
                 <a className="mt-3 text-custom-tan inline-flex items-center border-2 border-custom-tan p-5 rounded-lg">
-                  Learn More
+                  Our Space
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -416,11 +416,12 @@ const Home = () => {
                   alt=""
                 />
                 <h2 className="text-white text-lg title-font font-medium mb-5">
-                  Left Side Marketing
+                  Built For Customer Comfort
                 </h2>
                 <p className="leading-relaxed text-base mb-5">
-                  At Nerd Brainz people come from all around to rest, relax and
-                  revive with good company, and great food!
+                  We build each of our cafe's with you in mind. Every picture,
+                  seat and stool is designed to make you feel at home, and we
+                  happily accommodate people with disabilities.
                 </p>
                 <a className="mt-3 text-custom-tan inline-flex items-center border-2 border-custom-tan p-5 rounded-lg">
                   Learn More

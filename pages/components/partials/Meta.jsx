@@ -1,7 +1,7 @@
 import Head from "next/head";
 const Meta = (props) => (
   <Head>
-    <title>{props.title}</title>
+    <title>Nerd Brainz | {props.title}</title>
     <meta name="description" content="" />
     <meta property="og:type" content="website" />
     <meta name="og:title" property="og:title" content="" />

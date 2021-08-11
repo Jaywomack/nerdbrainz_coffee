@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="flex items-center flex-wrap bg-custom-black-light p-3">
+      <nav className="flex items-center flex-wrap bg-custom-black-light p-3 border-b-2 border-white">
         <Link href="/">
           <a className="inline-flex items-center p-2 mr-4">
             <img
@@ -55,25 +55,25 @@ const Navbar = () => {
                 Home
               </a>
             </Link>
-            <Link href="/">
+            <Link href="/menu">
               <a className="uppercase lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-custom-tan hover:text-black">
                 <i className="fas fa-mug-hot text-white text-lg mr-3 hidden md:block mb-3"></i>
                 Our Menu
               </a>
             </Link>
-            <Link href="/">
+            <Link href="/news">
               <a className="uppercase lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-custom-tan hover:text-black">
                 <i className="fas fa-mug-hot text-white text-lg mr-3 hidden md:block mb-3"></i>
                 News & Events
               </a>
             </Link>
-            <Link href="/">
+            <Link href="/about">
               <a className="uppercase lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-custom-tan hover:text-black">
                 <i className="fas fa-mug-hot text-white text-lg mr-3 hidden md:block mb-3"></i>
                 ABOUT
               </a>
             </Link>
-            <Link href="/">
+            <Link href="/contact">
               <a className="uppercase lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-custom-tan hover:text-black">
                 <i className="fas fa-mug-hot text-white text-lg mr-3 hidden md:block mb-3"></i>
                 Contact us

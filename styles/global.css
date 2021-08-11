@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* add @apply styles here */
+
+/* And other global styles here */
+.menu-hero-image {
+  background-image: url("/static/images/outdoor_eating.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.news-hero-image {
+  background-image: url("/static/images/writing.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
