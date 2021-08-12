@@ -14,7 +14,10 @@ const Footer = () => {
               <div>{`(555)867-5309`}</div>
               <div>
                 Email:{" "}
-                <span className="text-custom-tan"> Jay@nerdbrainz.com</span>
+                <span className="text-custom-tan">
+                  {" "}
+                  JaredJamesWomack@nerdbrainz.com
+                </span>
               </div>
               <img
                 className="h-48 w-48 filter invert hidden md:block"
