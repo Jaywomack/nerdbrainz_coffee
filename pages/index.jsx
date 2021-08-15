@@ -239,7 +239,7 @@ const Home = () => {
                 <img
                   alt="ecommerce"
                   className="object-cover object-center w-1/2 h-1/2 block mx-auto  mt-12"
-                  src="/static/images/coffee_cup_art.png"
+                  src="/static/images/latte2.png"
                 />
               </a>
               <div className="mt-4">
@@ -252,8 +252,8 @@ const Home = () => {
               <a className="block relative h-48 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
-                  className="object-cover object-center w-1/2 h-1/2 block mx-auto  mt-12"
-                  src="/static/images/coffee_cup_art.png"
+                  className="object-contain object-center w-1/2 h-1/2 block mx-auto  mt-12"
+                  src="/static/images/latte1.png"
                 />
               </a>
               <div className="mt-4">
