@@ -10,8 +10,8 @@ const Footer = () => {
             <nav className="list-none mb-10">
               <div>Nerd Brainz Coffee</div>
               <div>1337 Leet Ave</div>
-              <div>Spokane, WA, 94301 USA</div>
-              <div>{`(509)217-2823`}</div>
+              <div> WA, 94301 USA</div>
+              <div>{`(509)555-5555`}</div>
               <div>
                 Email:{" "}
                 <span className="text-custom-tan">
