@@ -13,17 +13,16 @@ const About = () => {
           </h1>
           <p className="mb-8 leading-relaxed">
             NerdBrainz is a concept that has been in the making for several
-            years and across three continents. The brain child of best friends
-            Jared and Alexander. The Idea was first conceived when they met as
-            neighbours living and working in SE Asia, has now grown into a fully
-            realised reality.
+            years and across three continents. The brain child of Jay. The Idea
+            was first conceived living and working in SE Asia, has now grown
+            into a fully realised reality.
           </p>
           <p className="mb-8 leading-relaxed">
-            With Jared and Alexander firmly at the helm. NerdBrainz’s has been a
-            global company from day one. Taking full advantage of the latest
-            communication software. They are able to cherry pick the best talent
-            from across North America and Europe bringing together a
-            cosmopolitan team of international players.
+            With Jay firmly at the helm. NerdBrainz’s has been a global company
+            from day one. Taking full advantage of the latest communication
+            software. NerdBrainz is able to cherry pick the best talent from
+            across North America and Europe bringing together a cosmopolitan
+            team of international players.
           </p>
           <p className="mb-8 leading-relaxed">
             At Nerdbrainz our driving ethos is, if it can be imagined we can
@@ -46,8 +45,7 @@ const About = () => {
           </p>
           <p className="mb-8 leading-relaxed">
             If you are thinking of building a website or upgrading your current
-            site. Just drop us a message and we will be happy to get right back
-            to you.
+            site. Just drop me a message and I will get right back to you.
           </p>
           <div className="flex justify-center">
             <button className="inline-flex text-white bg-custom-tan border-0 py-2 px-6 focus:outline-none  rounded text-lg">
